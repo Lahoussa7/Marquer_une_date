@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .model{
+        padding-left: 4vw;
+        color: rgb(162, 143, 188);
+        margin-top: 8vw;
+        font-size: 5vw;
+        text-align: center;
+    }
+    .back{
+        background-color: darksalmon;
+        border: groove rgba(255, 166, 0, 0.521) 2vw;
+        height: 40vw;
+    }
+    .mode{
+        height: 4vw;
+        width: 15vw;
+        border-radius: 30vw;
+        color: black;
+        border-color: blueviolet;
+        padding-left: 4vw;
+        font-size: 1.5vw;
+    }
+    .mod{
+        height: 2vw;
+        width: 10vw;
+        border-radius: 30vw;
+        color: rgb(235, 221, 221);
+        border-color: blueviolet;
+        padding-left: 1vw;
+        background-color: cadetblue;
+        font-size: large;
+    }
+
+
+</style>
+<body class="back">
+   <form ACTION="http://www.lahoussa.com/cgi-bin/atrib.cgi" METHOD="GET">
+    <div class="model">
+    <label for="choix" >Sélectionnez une option </label><br>
+        <select id="choix" name="choix" class="mode">
+            <option class=" taille" value="option1">Mineur</option>
+            <option  class=" taille" value="option2">Majeur</option>
+            <option class=" taille" value="option3">Adolescent</option>
+            <option class=" taille" value="option4">OBS</option>
+            <!-- Ajoutez d'autres options si nécessaire-->
+        </select><br>
+        <input type="submit" value="valider" class="mod"></div>
+
+   </form> 
+</body>
+</html>
